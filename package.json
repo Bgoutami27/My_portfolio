@@ -10,7 +10,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-"homepage": "https://Bgoutami27.github.io/My_portfolio",
+"homepage": "https://github.com/Bgoutami27/My_portfolio/tree/main",
 "scripts": {
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
