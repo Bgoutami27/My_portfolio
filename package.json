@@ -6,8 +6,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "https://Bgoutami27.github.io/My_portfolio/",
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -16,7 +19,8 @@
     "framer-motion": "^12.5.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "gh-pages": "^5.0.0"
   },
   "browserslist": {
     "production": [
@@ -31,3 +35,4 @@
     ]
   }
 }
+
