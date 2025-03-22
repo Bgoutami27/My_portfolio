@@ -1,0 +1,23 @@
+/* src/styles.css */
+body {
+    font-family: "Arial", sans-serif;
+    background: linear-gradient(to right,#DBDBDB, #C9B194);
+    color: #A08963;
+    text-align: center;
+    transition: background 0.5s ease-in-out;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
