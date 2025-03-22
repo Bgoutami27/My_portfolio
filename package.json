@@ -10,7 +10,12 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://Bgoutami27.github.io/My_portfolio/",
+"homepage": "https://Bgoutami27.github.io/My_portfolio",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+
   "keywords": [],
   "author": "",
   "license": "ISC",
